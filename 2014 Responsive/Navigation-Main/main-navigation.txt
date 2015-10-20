@@ -1,0 +1,48 @@
+<ul id="main-nav">
+	[*>NODE-Root]
+</ul>
+
+[>NODE-Root]
+	<li class="rootlevel-item[?BREADCRUMB] breadcrumb[/?]">
+		[?ENABLED]
+			<a class="rootlevel-link" href="[=URL]" target="[=TARGET]">[=TEXT]</a>
+		[?ELSE]
+			<div class="rootlevel-link">[=TEXT]</div>
+		[/?]
+		[?NODE]		
+			<ul class="second-level-menu">
+				[*>NODE-Second]
+			</ul>
+		[/?]
+	</li>
+[/>]
+
+[>NODE-Second]
+	<li class="child-item[?BREADCRUMB] breadcrumb[/?]">
+		[?ENABLED]
+			<a class="child-link" href="[=URL]" target="[=TARGET]"><span class="text-underline">[=TEXT]</span></a>
+		[?ELSE]
+			<div class="child-link"><span class="text-underline">[=TEXT]</span></div>
+		[/?]
+		[?NODE]
+			<ul class="third-level-menu">
+				[*>NODE-third]
+			</ul>
+		[/?]
+	</li>
+[/>]
+
+[>NODE-third]
+	<li class="child-item[?BREADCRUMB] breadcrumb[/?]">
+		[?ENABLED]
+			<a class="child-link" href="[=URL]" target="[=TARGET]"><span class="text-underline">[=TEXT]</span></a>
+		[?ELSE]
+			<div class="child-link"><span class="text-underline">[=TEXT]</span></div>
+		[/?]
+		[?NODE]
+			<ul class="third-level-menu">
+				[*>NODE-third]
+			</ul>
+		[/?]
+	</li>
+[/>]

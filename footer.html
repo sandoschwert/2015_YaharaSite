@@ -1,0 +1,52 @@
+    <div id="NewsPane" class="col-md-12" runat="server"></div>
+  
+    <div id="FooterPane" class="col-md-12 hidden-sm hidden-xs" runat="server">
+        <div class="footer-content">
+            <div><p> Current viewport width:<span id="monitor"></span></p></div> 
+            <div class="footer-address">
+                <p>8000 Excelsior Dr. Suite 400<br />Madison, WI 53717</p>
+            </div>
+            <div class="footer-logo"><a id="footer-logo" href="/Home" alt="yahara logo" title="yahara logo"></a></div>
+            <div class="footer-contact">
+                <p>P + 1 608 821 1759<br />E hello@yaharasoftware.com</p>
+            </div>   
+        </div>
+    </div>
+    
+    <div id="FooterPaneMobile" class="col-sm-12 hidden-md hidden-lg hidden-xl" runat="server">
+        <div class="footer-content">
+            <div><p> Current viewport width:<span id="monitor"></span></p></div> 
+            <div class="footer-logo"><a id="footer-logo" href="/Home" alt="yahara logo" title="yahara logo"></a></div>
+            <div class="footer-address">
+                <p>8000 Excelsior Dr. Suite 400<br />Madison, WI 53717</p>
+            </div>
+            <div class="footer-contact">
+                <p>P + 1 608 821 1759<br />E hello@yaharasoftware.com</p>
+            </div>   
+        </div>
+    </div>
+    
+    <div id="LegalPane" class="col-md-12" runat="server">
+       <div class="social-icons">
+            <a id="facebook-logo" href="" alt="facbook logo" title="facebook logo"></a>
+            <a id="twitter-logo" href="" alt="twitter logo" title="twitter logo"></a>
+            <a id="linkedin-logo" href="" alt="linkedin logo" title="linkedin logo"></a>
+       </div>
+       <div class="clear"></div>
+       <div class="footer-legal">
+            <dnn:copyright id="dnnCopyright" cssclass="copyright" runat="server" />
+            <br />
+            <dnn:privacy id="dnnPrivacy" runat="server" />
+            <dnn:LOGIN ID="dnnLogin" runat="server" LegacyMode="true" />
+        </div>
+        <div id="footer-color-bar"></div> 
+    </div>
+
+            <script language="javascript">
+                $('#monitor').html($(window).width());
+
+                $(window).resize(function() {
+                    var viewportWidth = $(window).width();
+                    $('#monitor').html(viewportWidth);
+                });
+            </script>

@@ -1,0 +1,105 @@
+#mobile-menu {
+	display: none;
+}
+
+#mobile-menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#mobile-menu ul ul {
+	display: none;
+}
+
+#mobile-menu ul.root-level-menu {
+	background-color: #31b0be;
+}
+
+#mobile-menu ul.second-level-menu {
+	background-color: #98cdd7;
+}
+
+#mobile-menu ul.third-level-menu {
+	background-color: #f7b64e;
+}
+
+#mobile-menu ul.third-level-menu ul{
+	padding: 0 12px;
+}
+
+#mobile-menu li.root-level {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+#mobile-menu li {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	line-height: 1;
+}
+
+#mobile-menu li.last {
+	border-bottom: none;
+}
+
+#mobile-menu .root-level-item,
+#mobile-menu .second-level-item,
+#mobile-menu .third-level-item {
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 3px 12px 3px 40px;
+	position: relative;
+}
+
+#mobile-menu .root-level-item {
+	padding: 6px 12px 6px 24px;
+	text-transform: uppercase;
+}
+
+#mobile-menu .second-level-item {
+	padding-left: 32px;
+}
+
+#mobile-menu .child-arrow {
+	background-image: url(images/mobile-menu-arrow.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 40px;
+	right: 0;
+	top: 0;
+	transition: all 600ms;
+	width: 40px;
+}
+
+#mobile-menu .second-level-menu .child-arrow {
+	height: 32px;
+	width: 32px;
+	padding-right: 4px;
+}
+
+#mobile-menu .child-arrow-rotate {
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	transform: rotate(90deg);
+}
+
+#mobile-menu .text-underline {
+	display: inline-block;
+	padding: 4px 0;
+}
+
+#mobile-menu .second-level-menu .text-underline {
+	display: inline-block;
+	padding: 3px 0;
+}
+
+#mobile-menu .root-level-item:hover .text-underline,
+#mobile-menu .second-level-item:hover .text-underline,
+#mobile-menu .third-level-item:hover .text-underline,
+#mobile-menu .breadcrumb  > a > .text-underline,
+#mobile-menu .breadcrumb  > div > .text-underline {
+	background-image: url(images/nav-underline-mobile.png);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+}

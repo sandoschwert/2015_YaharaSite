@@ -1,0 +1,50 @@
+<nav id="mobile-menu">
+	<ul class="root-level-menu">
+		[*>NODE-Root]
+	</ul>
+</nav>
+
+[>NODE-Root]
+	<li class="root-level[?FIRST] first[/?][?LAST] last[/?][?SELECTED] selected[/?][?BREADCRUMB] breadcrumb[/?]">
+		[?ENABLED]
+			<a class="root-level-item" href="[=URL]" target="[target]"><span class="text-underline">[=TEXT][?NODE]</span><div class="child-arrow[?BREADCRUMB][?!SELECTED] child-arrow-rotate[/?][/?]"></div>[/?]</a>
+		[?ELSE]
+			<div class="root-level-item"><span class="text-underline">[=TEXT][?NODE]</span><div class="child-arrow[?BREADCRUMB][?!SELECTED] child-arrow-rotate[/?][/?]"></div>[/?]</div>
+		[/?]
+		[?NODE]		
+			<ul class="second-level-menu" [?BREADCRUMB][?!SELECTED]style="display: block;"[/?][/?]>
+				[*>NODE-Sub]
+			</ul>
+		[/?]
+	</li>
+[/>]
+
+[>NODE-Sub]
+	<li class="secondlevel[?FIRST] first[/?][?LAST] last[/?][?SELECTED] selected[/?][?BREADCRUMB] breadcrumb[/?]">		
+		[?ENABLED]
+			<a class="second-level-item" href="[=URL]" target="[target]"><span class="text-underline">[=TEXT][?NODE]</span><div class="child-arrow[?BREADCRUMB][?!SELECTED] child-arrow-rotate[/?][/?]"></div>[/?]</a>
+		[?ELSE]
+			<div class="second-level-item"><span class="text-underline">[=TEXT][?NODE]</span><div class="child-arrow[?BREADCRUMB][?!SELECTED] child-arrow-rotate[/?][/?]"></div>[/?]</div>
+		[/?]
+		[?NODE]
+			<ul class="third-level-menu" [?BREADCRUMB][?!SELECTED]style="display: block;"[/?][/?]>
+				[*>NODE-third]
+			</ul>
+		[/?]
+	</li>
+[/>]
+
+[>NODE-third]
+	<li class="third-level[?FIRST] first[/?][?LAST] last[/?][?SELECTED] selected[/?][?BREADCRUMB] breadcrumb[/?]">
+		[?ENABLED]
+			<a class="third-level-item" href="[=URL]" target="[target]""><span class="text-underline">[=TEXT][?NODE]</span><div class="child-arrow[?BREADCRUMB][?!SELECTED] child-arrow-rotate[/?][/?]"></div>[/?]</a>
+		[?ELSE]
+			<div class="third-level-item"><span class="text-underline">[=TEXT][?NODE]</span><div class="child-arrow[?BREADCRUMB][?!SELECTED] child-arrow-rotate[/?][/?]"></div>[/?]</div>
+		[/?]
+		[?NODE]
+			<ul class="third-level-menu" [?BREADCRUMB][?!SELECTED]style="display: block;"[/?][/?]>
+				[*>NODE-third]
+			</ul>
+		[/?]
+	</li>
+[/>]

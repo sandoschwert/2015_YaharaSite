@@ -1,0 +1,9 @@
+ul#BottomNavigation {
+	margin: 0;
+	padding: 0;
+}
+
+#BottomNavigation li {
+	list-style-type: none;
+	padding: 0;
+}

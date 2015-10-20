@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+    <template>sidebar-navigation.txt</template>
+    <stylesheets>
+      <stylesheet>sidebar-navigation.css</stylesheet>
+    </stylesheets>
+</manifest>

@@ -1,0 +1,102 @@
+ul#main-nav {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+#main-nav li {
+	position: relative;
+    margin-right: 3%;
+}
+
+#main-nav .rootlevel-item {
+    float: left;
+	margin-left: 25px;
+}
+
+#main-nav .rootlevel-link,
+#main-nav a.rootlevel-link {
+	color: ghostwhite;
+	display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+
+#main-nav .child-link,
+#main-nav a.child-link {
+	color: #fff;
+	display: block;
+	font-size: 13px;
+	line-height: 2em;
+	padding: 0 10px;
+	text-align: left;
+	white-space: nowrap;
+}
+
+#main-nav .child-link:hover,
+#main-nav a.child-link:hover {
+	color: #fff;
+}
+
+#main-nav a.rootlevel-link.login {
+	color: lightblue;
+}
+
+#main-nav .rootlevel-link:hover,
+#main-nav li.rootlevel-item.active .rootlevel-link,
+#main-nav li.rootlevel-item.selected .rootlevel-link,
+#main-nav li.rootlevel-item.breadcrumb .rootlevel-link {
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+    color: lightgray;
+}
+
+
+ul#main-nav ul {
+	/* Styles for background sub levels */
+	background-color: gray;
+	display: none;
+	position: absolute;
+	z-index: 101;
+	width: auto;
+	padding: 4px 0;
+	top: 100%;
+	-webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+ul#main-nav ul.third-level-menu {
+	left: 100%;
+	top: -4px;
+}
+
+.child-link .text-underline {
+	display: inline-block;
+	padding: 3px 0;
+}
+
+li.child-item.breadcrumb > .child-link .text-underline,
+li.child-item.active > .child-link .text-underline,
+li.child-item .child-link:hover .text-underline {
+	background-image: url(images/nav-underline.png);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+}
+
+
+
+/* //// TABLET //// */
+@media only screen and (max-width : 1024px) {
+
+	ul#main-nav {
+		display: inline-block;
+		margin: 16px auto 0;
+	}
+	
+	#main-nav .rootlevel-item {
+		margin: 0 8px;
+	}
+
+}

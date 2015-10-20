@@ -1,0 +1,32 @@
+<div class="navbar" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            
+            <a class="navbar-brand" href="#"><dnn:LOGO id="dnnLogo" runat="server"/></a>
+            <div class="mobile-nav-position row">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        
+            <div class="main-nav-position row">
+                <div class="collapse navbar-collapse">
+                    <div class="left-position">
+                        <dnn:MENU ID="MENU1" Cssclass="dnnMenuPosition" MenuStyle="BootstrapMenu" runat="server"></dnn:MENU>
+                    </div>
+                    <div class="right-position">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a id="careers-icon-button" href="/Home/Who-We-are/Careers" alt="careers" title="careers"></a></li>
+                            <li><a id="contact-icon-button" href="/Home/Who-We-Are/Contact" alt="contact" title="contact"></a></li>
+                            <li><a id="search-icon-button" href="" alt="search" title="search"></a></li>
+                        </ul>
+                    </div>
+                </div><!--/.nav-collapse -->
+            </div>
+            
+        </div><!--/.navbar-header -->
+    </div><!--/.container -->
+</div><!--/.navbar -->

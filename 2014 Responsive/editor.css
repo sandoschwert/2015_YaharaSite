@@ -1,0 +1,77 @@
+﻿.color-black {
+	color: #010101;
+}
+
+.color-blue {
+	color: #31b0be;
+}
+
+.color-gray {
+	color: #848484;
+}
+
+.color-green {
+	color: #87a73e;
+}
+
+.color-orange {
+	color: #f2a51e;
+}
+
+.color-white {
+	color: #ddd;
+}
+
+.read-more-link {
+	background-image: url(images/read-more-arrow-gray.png);
+	background-position: 100% center;
+	background-repeat: no-repeat;
+	color: #ddd;
+	padding-right: 20px;
+	text-transform: uppercase;
+}
+
+.side-bar-link-orange {
+	background-image: url(images/link-button-orange.png);
+	background-position: 0 center;
+    background-repeat: repeat-y;
+	color: #f2a51e;
+    display: block;
+    font-family: "Droid Serif",serif;
+    font-size: 14px;
+    line-height: 1.1;
+    padding: 10px 8px 10px 48px;
+    text-transform: uppercase;
+}
+
+
+.side-bar-link-blue {
+	background-image: url(images/link-button-blue.png);
+	background-position: 0 center;
+    background-repeat: repeat-y;
+	color: #31b0be;
+    display: block;
+    font-family: "Droid Serif",serif;
+    font-size: 14px;
+    line-height: 1.1;
+    padding: 10px 8px 10px 48px;
+    text-transform: uppercase;
+}
+
+.testimonial-quote {
+	background: url(images/testimonial-open-quote.png) 0 0 no-repeat, url(images/testimonial-close-quote.png) 100% 100% no-repeat;
+	font-family: 'Droid Serif', serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	padding: 40px 58px 14px;
+	
+}
+
+.testimonial-person {
+	font-family: 'Droid Serif', serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	padding: 0 58px;
+	text-align: right;
+	
+}

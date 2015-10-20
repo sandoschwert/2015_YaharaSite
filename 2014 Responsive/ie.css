@@ -1,0 +1,49 @@
+.site-header,
+.content-width {
+	max-width: 962px;
+	min-width: 962px;
+	width: 962px;
+}
+
+.equal-height-cols {
+
+}
+
+.left-col,
+.right-col  {
+	display: table-cell;
+	float: none;
+}
+
+.left-col {
+	width: 642px;
+}
+
+.right-col {
+	width: 320px;
+}
+
+.content-area-top-bg {
+	background-position: center 0;
+}
+
+
+.dark-orange-bg {
+	background-color: #F3A61E;
+	background-image: none;
+}
+
+.light-orange-bg {
+	background-color: #FAD7A1;
+	background-image: none;
+}
+
+.blue-bg {
+	background-color: #98CDD7;
+	background-image: none;
+}
+
+.light-green-bg {
+	background-color: #E9F1DF;
+	background-image: none;
+}

@@ -1,0 +1,12 @@
+<ul id="BottomNavigation">
+	[*>NODE-Root]
+	<li class="clear"></li>
+</ul>
+
+[>NODE-Root]
+	<li class="rootlevel">
+		[?ENABLED]
+			<a class="rootlevel-item[?SELECTED] selected[/?][?BREADCRUMB] breadcrumb[/?]" href="[=URL]">[=TEXT]</a>
+		[/?]
+	</li>
+[/>]

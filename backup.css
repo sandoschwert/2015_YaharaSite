@@ -1,0 +1,203 @@
+ul li:hover ul.dropdown-menu {
+	display: inline;
+}
+
+.navbar-right .dropdown-menu {
+	width: 125%;
+	padding: 0px;
+	margin: 0px;
+	right: auto;
+	left: auto;
+}
+
+ul.dropdown-menu {
+	width: 125%;
+	padding: 2px;
+	margin: 0px;
+	right: auto;
+	left: auto;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.container {
+    	width: 100%;
+	}
+	
+	.navbar {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		z-index: 15;
+	}
+	.navbar-nav {
+		margin-right: 0px;
+	}
+	
+	.navbar li a:link {
+		width: 100%;
+		margin: .8em;
+		color: #365172;
+		font-family: 'Source Code Pro', sans-serif;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+		
+	.navbar li a:visited {
+		color: #365172;
+	}
+	
+	.navbar li a:hover {
+		background-color: white;
+		color: #365172;
+	}
+		
+	.navbar li a:active {
+		background-color: #546274;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 3em;
+   		-moz-border-radius: 3em;
+   		border-radius: 3em;
+		color: white;
+	}
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1350px) {  
+	.container {
+    	width: 100%;
+	}
+	
+	.nav {
+
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 0px;
+		z-index: 15;
+	}
+	
+	ul.nav {
+		margin-top: 15px;
+	}
+	
+	ul.dropdown-menu a:link {
+		width: 100%;
+		margin: .8em;
+		color: #365172;
+		font-family: 'Source Code Pro', sans-serif;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		background-color: transparent;
+	}
+	
+	ul.dropdown-menu a:visited {
+		color: #365172;
+	}
+	
+	
+	ul.dropdown-menu a:hover {
+		background-color: #365172;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 3em;
+   		-moz-border-radius: 3em;
+   		border-radius: 3em;
+		color: white;
+	}
+	
+	ul.dropdown-menu a:active {
+		background-color: #546274;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 3em;
+   		-moz-border-radius: 3em;
+   		border-radius: 3em;
+		color: white;
+	}
+	
+	ul.dropdown-menu li.dropdown.active a:link {
+		background-color: #365172;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 3em;
+   		-moz-border-radius: 3em;
+   		border-radius: 3em;
+		color: white;
+	}
+	
+	ul.dropdown-menu a:link.child-link {
+		background-color: white;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 0em;
+   		-moz-border-radius: 0em;
+   		border-radius: 0em;
+		color: #365172;
+	}
+	
+	ul.dropdown-menu a:visited.child-link {
+		background-color: white;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 0em;
+   		-moz-border-radius: 0em;
+   		border-radius: 0em;
+		color: #546274;
+	}
+	
+	ul.dropdown-menu a:hover.child-link {
+		background-color: #365172;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 0em;
+   		-moz-border-radius: 0em;
+   		border-radius: 0em;
+		color: white;
+	}
+	
+	ul.dropdown-menu a:active.child-link {
+		background-color: white;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 0em;
+   		-moz-border-radius: 0em;
+   		border-radius: 0em;
+		color: #365172;
+	}
+	
+	ul.second-level-menu li a:link.child-link {
+		background-color: white;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 0em;
+   		-moz-border-radius: 0em;
+   		border-radius: 0em;
+		color: #365172;
+	}
+	
+	ul.second-level-menu li a:visited.child-link {
+		background-color: white;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 0em;
+   		-moz-border-radius: 0em;
+   		border-radius: 0em;
+		color: #365172;
+	}
+	
+	ul.second-level-menu li a:hover.child-link {
+		background-color: white;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 0em;
+   		-moz-border-radius: 0em;
+   		border-radius: 0em;
+		color: #365172;
+	}
+	
+	ul.second-level-menu li a:active.child-link {
+		background-color: lightgray;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 0em;
+   		-moz-border-radius: 0em;
+   		border-radius: 0em;
+		color: #365172;
+	}
+}

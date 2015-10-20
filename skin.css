@@ -1,0 +1,2152 @@
+
+/*------------------------------------------------*/
+/* FONT STYLE */
+/*------------------------------------------------*/
+
+@font-face {
+	font-family: 'droid_sansregular';
+	src: url('fonts/DroidSans-webfont.eot');
+	src: url('fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/DroidSans-webfont.woff2') format('woff2'), url('fonts/DroidSans-webfont.woff') format('woff'), url('fonts/DroidSans-webfont.ttf') format('truetype'), url('fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, th, td, table, h1, h2, h3, h4, h5, h6,
+.Head, .SubHead, .SubSubHead,
+.Normal, .NormalBold, .NormalRed, .NormalTextBox, .NormalDisabled, 
+input, textarea, select, .CommandButton {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #365172;
+}
+
+body, th, td, table, h1, h2, h3, h4, h5, h6,
+.Head, .SubHead, .SubSubHead,
+.Normal, .NormalBold, .NormalRed, .NormalTextBox, .NormalDisabled,
+input, textarea, select, .CommandButton {
+	font-size: 14px;
+}
+
+.em {
+	font-style: italic;
+}
+
+.bigger-text {
+	font-size: 24px;
+}
+
+div.section-title-container {
+	padding: 40px 0px 10px 0px;
+}
+
+h2.section-title {
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+h3.subtitle {
+	font-size: 22;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+p.quote-attribution {
+	text-align: right;
+}
+
+
+/*------------------------------------------------*/
+/* MEDIA QUERIES
+/*------------------------------------------------*/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+.navbar-brand {
+	height: 0px;
+	padding: 0px;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #365172;
+}
+
+.mobile-nav-position {
+	float: right;
+	margin-top: 6px;
+}
+
+div.social-icons {
+	display: block;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;	
+}
+	
+a#facebook-logo {
+	display: block;
+	height: 29px;
+	width: 29px;
+	background-image: url(images/icon-facebook.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin: 5px;
+}
+	
+a#twitter-logo {
+	display: block;
+	height: 29px;
+	width: 29px;
+	background-image: url(images/icon-twitter.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin: 5px;
+}
+	
+a#linkedin-logo {
+	display: block;
+	height: 29px;
+	width: 29px;
+	background-image: url(images/icon-linkedin.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin: 5px;
+}
+	
+div.footer-legal {
+	text-align: center;
+	margin-top: 20px;
+}
+
+div.footer-content {
+		text-align: center;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	a#footer-logo {
+		display: block;
+		height: 76px;
+		width: 185px;
+		background-image: url(images/yahara-small-logo.png);
+		background-repeat: no-repeat;
+		margin: 10px;
+	}
+
+	div.footer-logo {
+		width: 185px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+
+	div.footer-address {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	div.footer-contact {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	
+	div#footer-color-bar {
+		display: block;
+		height: 5px;
+		background-image: url(images/footer-color-bar-smallest.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-top: 20px;
+	}
+	
+	.col-lg-6 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+	.navbar-collapse.collapse {
+		display: none!important;
+	}	
+	
+	.navbar-toggle.collapsed {
+		display: block!important;
+	}
+	
+	.navbar-collapse.collapse.in {
+		display: block!important;
+	}
+	
+	.navbar-toggle .icon-bar {
+		background-color: #365172;
+	}
+	
+	.navbar-header {
+		width: 99%;	
+	}
+	
+	.navbar-header {
+		float: none;
+	}
+	
+	.mobile-nav-position {
+		float: right;
+		margin-top: 6px;
+	}
+	
+	.navbar-right .dropdown-menu {
+		right: auto;
+		left: 0;
+	}
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1279px) { 	
+	
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	
+	.navbar {
+		margin-right: auto;
+		margin-left: 4%;
+		margin-bottom: 0px;
+		z-index: 15;
+		font-size: 14px;
+	}
+	
+	div.footer-content {
+		text-align: center;
+		width: 790px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	a#footer-logo {
+		display: block;
+		height: 76px;
+		width: 185px;
+		background-image: url(images/yahara-small-logo.png);
+		background-repeat: no-repeat;
+		margin: 10px;
+	}
+
+	div.footer-address {
+		float: left;
+		margin: 15px 10px 0px 10px;
+		text-align: left;
+	}
+	
+	div.footer-logo {
+		float: left;
+		margin: 0px 100px 0px 100px;
+	}
+	
+	div.footer-contact {
+		float: left;
+		margin: 15px 10px 0px 10px;
+		text-align: right;
+	}
+	
+	div#footer-color-bar {
+		display: block;
+		height: 5px;
+		background-image: url(images/footer-color-bar-md.png);
+		background-repeat: no-repeat;
+		margin-top: 20px;
+	}
+	
+}
+
+/* Large devices (large desktops, 1280px and up) */
+@media (min-width: 1280px) { 
+	
+	.container-fluid .row {
+		max-width: 1960;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.navbar-toggle.collapsed {
+		display: none!important;
+	}
+	
+	.navbar-collapse.collapse {
+		display: block!important;
+	}
+	
+	.navbar {
+		max-width: 1960px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 0px;
+		z-index: 15;
+		font-size: 14px;
+	}
+	
+	.navbar-header {
+		max-height: 100px;	
+	}	
+	
+	.main-nav-position {
+		min-width: 1000px;
+		max-width: 1300;
+		float: right;
+		margin-top: 20px;
+	}
+	
+	.left-position {
+		float: left;
+		margin-left: 50px;
+	}
+	
+	.right-position {
+		
+	}
+	
+	.navbar .left-position li a:link {
+		color: #365172;
+		font-family: 'Source Code Pro', sans-serif;
+		font-size: 1.2em;
+		padding-top: 10px;
+		padding-bottom: 2px;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+	
+	.navbar .left-position li a:visited {
+		color: #546274;
+	}
+	
+	.navbar .left-position li a:hover {
+		background-color: #365172;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 3em;
+   		-moz-border-radius: 3em;
+   		border-radius: 3em;
+		color: white;
+	}
+	
+	.navbar .left-position li a:active {
+		background-color: #365172;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 3em;
+   		-moz-border-radius: 3em;
+   		border-radius: 3em;
+		color: white;
+	}
+		
+	ul li:hover ul.dropdown-menu {
+		display: inline;
+	}
+	
+	
+	.navbar .left-position li.dropdown ul.dropdown-menu li a:hover {
+		background-color: #365172;
+		background-repeat: no-repeat;
+		-webkit-border-radius: 0px;
+   		-moz-border-radius: 0px;
+   		border-radius: 0px;
+		color: white;
+	}
+	
+	.dropdown-menu>.active>a {
+		background-color: ghostwhite;
+	}
+	
+	div.footer-content {
+		text-align: center;
+		width: 790px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	a#footer-logo {
+		display: block;
+		height: 76px;
+		width: 185px;
+		background-image: url(images/yahara-small-logo.png);
+		background-repeat: no-repeat;
+		margin: 10px;
+	}
+
+	div.footer-address {
+		float: left;
+		margin: 15px 10px 0px 10px;
+		text-align: left;
+	}
+	
+	div.footer-logo {
+		float: left;
+		margin: 0px 100px 0px 100px;
+	}
+	
+	div.footer-contact {
+		float: left;
+		margin: 15px 10px 0px 10px;
+		text-align: right;
+	}
+	
+	div#footer-color-bar {
+		display: block;
+		height: 5px;
+		background-image: url(images/footer-color-bar.png);
+		background-repeat: no-repeat;
+		margin-top: 20px;
+	}
+}
+
+/*------------------------------------------------*/
+/* HEADER STYLE */
+/*------------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+	color: #365172;
+	font-family: 'Source Code Pro', sans-serif;
+	letter-spacing: 0;
+	line-height: 1;
+	margin: 0 0 1em;
+}
+
+h1 {
+	font-size: 26px;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3{
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 15px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h6 {
+	font-size: 13px;
+}
+
+.right-position .nav>li>a#careers-icon-button:link {
+	height: 40px;
+	width: 40px;
+	background-image: url(images/icon-careers.png);	
+	background-repeat: no-repeat;
+}
+
+.right-position .nav>li>a#careers-icon-button:visited {
+	background-image: url(images/icon-careers.png);	
+	background-repeat: no-repeat;	
+}
+
+.right-position .nav>li>a#careers-icon-button:hover {
+	height: 40px;
+	width: 40px;
+	background-image: url(images/icon-careers-hover.png);	
+	background-repeat: no-repeat;
+	background-color: transparent;	
+}
+
+.right-position .nav>li>a#careers-icon-button:active {
+	background-image: url(images/icon-careers.png);	
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+.right-position .nav>li>a#contact-icon-button:link {
+	height: 40px;
+	width: 40px;
+	background-image: url(images/icon-contact.png);	
+	background-repeat: no-repeat;	
+}
+
+.right-position .nav>li>a#contact-icon-button:visited {
+	height: 40px;
+	width: 40px;
+	background-image: url(images/icon-contact.png);	
+	background-repeat: no-repeat;	
+}
+
+.right-position .nav>li>a#contact-icon-button:hover {
+	height: 40px;
+	width: 40px;
+	background-image: url(images/icon-contact-hover.png);	
+	background-repeat: no-repeat;
+	background-color: transparent;	
+}
+
+.right-position .nav>li>a#contact-icon-button:active {
+	height: 40px;
+	width: 40px;
+	background-image: url(images/icon-contact.png);	
+	background-repeat: no-repeat;
+	background-color: transparent;	
+}
+
+.right-position .nav>li>a#search-icon-button:link {
+	height: 40px;
+	width: 40px;
+	background-image: url(images/icon-search.png);
+	background-repeat: no-repeat;	
+}
+
+.right-position .nav>li>a#search-icon-button:visited {
+	height: 40px;
+	width: 40px;
+	background-image: url(images/icon-search.png);
+	background-repeat: no-repeat;	
+}
+
+.right-position .nav>li>a#search-icon-button:hover {
+	height: 40px;
+	width: 40px;
+	background-image: url(images/icon-search-hover.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+.right-position .nav>li>a#search-icon-button:active {
+	height: 40px;
+	width: 40px;
+	background-image: url(images/icon-search.png);
+	background-repeat: no-repeat;
+	background-color: transparent;	
+}
+
+
+
+/*------------------------------------------------*/
+/* HOME PAGE STYLES */
+/*------------------------------------------------*/
+
+
+/* DNN Body */
+#Body {
+	background-color: #fff;
+}
+
+#ControlBar, #ControlBar *, .actionMenu * { 
+	-webkit-box-sizing: content-box; 
+	-moz-box-sizing: content-box; 
+	box-sizing: content-box; 
+}
+
+.carousel {	
+	margin-bottom: -2%;
+	max-height: 669px;
+	max-width: 1960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carousel img {
+	
+}
+
+@media (max-width: 760px) {
+	div#myCarousel {
+		display: none;
+	}
+	
+	div#small-screen-banner {
+		display: block;
+		background-image: url(images/navy-bg-760.png);
+		background-repeat: repeat-y;
+		width: 99%;
+		height: 375px;
+		margin-top: -5px;
+	}
+	
+	a.small-circle-arrow {
+		display: block;
+		height: 30px;
+		width: 30px;
+		background-image: url(images/small-arrow-button-ltblue.png);
+		background-repeat: no-repeat;
+		color: white;
+		float: right;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	
+	.small-headline {
+		position: absolute;
+		max-width: 700px;
+		right: 0%;
+		left: 5%;
+		bottom: 1%;
+		text-align: left;
+		line-height: 36px;
+		color: white;
+		padding-right: 2%;
+	}
+	
+	.small-banner-max-width {
+		max-width: 500px;
+		margin-top: 8%;
+	}
+	
+	.banner-text {
+		font-size: 28px;
+		font-family: 'Source Code Pro', sans-serif;
+		padding-top: 0px;
+	}
+	
+	.small-headline h1 {
+		color: white;
+		font-size: 32px;
+		text-align: right;
+	}
+}
+
+@media (min-width: 761px) and (max-width: 1150px) {
+	
+	div#myCarousel {
+		display: block;
+		margin-top: -5px;
+	}
+	
+	div#small-screen-banner {
+		display: none;
+	}
+	
+	.carousel-headline {
+		position: absolute;
+		max-width: 95%;
+		right: 0%;
+		left: 5%;
+		bottom: 10%;
+		text-align: left;
+		line-height: 40px;
+		color: white;
+	}
+	
+	.banner-text {
+		font-size: 35px;
+		font-family: 'Source Code Pro', sans-serif;
+		padding-top: 0px;
+	}
+	
+	.carousel-headline h1 {
+		color: white;
+		font-size: 50px;
+	}
+	
+}
+
+@media (min-width: 1151px) and (max-width: 1390px) { 
+	
+	div#myCarousel {
+		display: block;
+		margin-top: -10px;
+	}
+	
+	div#small-screen-banner {
+		display: none;
+	}
+	
+	.carousel-headline {
+		position: absolute;
+		max-width: 95%;
+		right: 0%;
+		left: 6%;
+		bottom: 5%;
+		text-align: left;
+		line-height: 52px;
+		color: white;
+	}
+	
+	.banner-text {
+		font-size: 50px;
+		font-family: 'Source Code Pro', sans-serif;
+		padding-top: 10px;
+	}
+	
+	.carousel-headline h1 {
+		color: white;
+		font-size: 85px;
+	}
+	
+}
+
+@media (min-width: 1391px) { 
+	
+	div#myCarousel {
+		display: block;
+		height: 546px;
+		margin-top: -20px;
+		
+	}
+	
+	
+	div#small-screen-banner {
+		display: none;
+	}
+	
+	.carousel-headline {
+		position: absolute;
+		max-width: 95%;
+		right: 0%;
+		left: 5%;
+		bottom: 10%;
+		text-align: left;
+		line-height: 70px;
+		color: white;
+	}
+	
+	.banner-text {
+		font-size: 60px;
+		font-family: 'Source Code Pro', sans-serif;
+		padding-top: 10px;
+	}
+	
+	.carousel-headline h1 {
+		color: white;
+		font-size: 90px;
+	}
+
+}
+
+.carousel-indicators {
+	bottom: 100px;
+}
+
+.carousel-indicators li {
+	margin: 10px;
+}
+
+.carousel-indicators li.active {
+	margin: 10px;
+}
+
+p.home-page-overview {
+	font-family: "Source Code Pro", sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 10px 30px 30px 30px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a#navy-arrow-button:link {
+	display: block;
+	height: 79px;
+	width: 79px;
+	background-image: url(images/arrow-button-navy.png);
+	background-repeat: no-repeat;	
+}
+
+a#navy-arrow-button:hover {
+	background-image: url(images/arrow-button-ltblue.png);
+	background-repeat: no-repeat;
+}
+
+.home-page-overview {
+	font-size: 14px;
+}
+
+.four-square-position {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.what-we-do-button-home {
+	position: absolute;
+	right: 44.5%;
+	top: 200px;
+	z-index: 15;
+}
+
+a#what-we-do-button:link {
+	display: block;
+	height: 150px;
+	width: 150px;
+	background-image: url(images/what-we-do-button.png);
+	background-repeat: no-repeat;
+}
+
+a#what-we-do-button:hover {
+	background-image: url(images/what-we-do-button-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#enterprise-square:link {
+	display: block;
+	height: 275px;
+	background-image: url(images/quadrant-enterprise.png);
+	background-repeat: no-repeat;
+}
+
+a#enterprise-square:hover {
+	background-image: url(images/quadrant-enterprise-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#custom-square:link {
+	display: block;
+	height: 275px;
+	background-image: url(images/quadrant-custom-software.png);
+	background-repeat: no-repeat;
+}
+
+a#custom-square:hover {
+	background-image: url(images/quadrant-custom-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#analytics-square:link {
+	display: block;
+	height: 275px;
+	background-image: url(images/quadrant-data-analytics.png);
+	background-repeat: no-repeat;
+}
+
+a#analytics-square:hover {
+	background-image: url(images/quadrant-data-analytics-hover.png);
+	background-repeat: no-repeat
+}
+
+a#interactive-square:link {
+	display: block;
+	height: 275px;
+	background-image: url(images/quadrant-interactive.png);
+	background-repeat: no-repeat;
+}
+
+a#interactive-square:hover {
+	background-image: url(images/quadrant-interactive-hover.png);
+	background-repeat: no-repeat;
+}
+
+div.white-box {
+	display: table;
+	height: 75px;
+	margin-top: 200px;
+	font-family: 'Source Code Pro', sans-serif;
+	padding: 25px;
+	background-color: transparent;
+}
+
+
+div.white-box.left-side {
+	text-align: left;
+	float: left;
+}
+
+div.white-box.right-side {
+	text-align: right;
+	float: right;
+}
+
+div.white-box p {
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+div.life-science-section {
+	width: 250px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img#teal-dot-bar {
+	position: absolute;
+	top: -60px;
+	left: 200px;
+}
+
+div.life-science-section h3 {
+	margin-top: 18px;
+}
+
+a#LifeSciencesIcon:link {
+	display: block;
+	height: 150px;
+	width: 150px;
+	background-image: url(images/icon-science.png);
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.education-section {
+	width: 250px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.education-section h3 {
+	margin-top: 15px;
+}
+
+a#EducationIcon:link {
+	display: block;
+	height: 158px;
+	width: 150px;
+	background-image: url(images/icon-education.png);
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.transportation-section {
+	width: 250px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.transportation-section h3 {
+	margin-top: 18px;
+}
+
+a#TransportationIcon:link {
+	display: block;
+	height: 150px;
+	width: 201px;
+	background-image: url(images/icon-transportation.png);
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img#navy-dot-bar {
+	position: absolute;
+	right: 250px;
+	top: -80px;
+}
+
+div.why-we-succeed-section, 
+div.careers-section, 
+div.who-we-serve-section, 
+div.what-we-do-section {
+	display: block;
+	height: 400px;
+	margin-top: 30px;
+	background-image:  url(images/why-we-succed-bg-graphic.png);
+	background-repeat: no-repeat;
+}
+
+div.why-we-succeed-content, 
+div.careers-content, 
+div.who-we-serve-content,
+div.what-we-do-content {
+	margin-left: 35%;
+	margin-right: 20%;
+	padding-top: 7%;
+}
+
+div.why-we-succeed-section.who-we-serve-page {
+	background-image:  url(images/why-we-succeed-bg-2.png);
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+div.why-we-succeed-content.who-we-serve-page {
+	max-width: 600px;
+}
+
+div.careers-section {
+	background-image:  url(images/careers-bottom-banner.png);
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+div.careers-content {
+	max-width: 600px;
+}
+
+div.who-we-serve-section {
+	background-image:  url(images/who-we-serve-bottom-banner.png);
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+div.who-we-serve-content {
+	max-width: 600px;
+}
+
+div.what-we-do-section {
+	background-image:  url(images/purple-bottom-banner.png);
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+div.what-we-do-content {
+	max-width: 600px;
+}
+
+a#PartnerApproachIcon:link {
+	display: block;
+	height: 150px;
+	width: 184px;
+	background-image: url(images/partner-approach.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 20%;
+	margin-right: 4%;
+	margin-top: 8%;
+}
+
+a#PartnerApproachIcon:hover {
+	background-image: url(images/partner-approach-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#JoinTheTeamIcon:link {
+	display: block;
+	height: 150px;
+	width: 184px;
+	background-image: url(images/join-the-team-button.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 25%;
+	margin-right: 3%;
+	margin-top: 7%;
+}
+
+a#JoinTheTeamIcon:hover {
+	background-image: url(images/join-the-team-button-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#MakingDataWorkIcon:link {
+	display: block;
+	height: 150px;
+	width: 184px;
+	background-image: url(images/making-data-work-button.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 25%;
+	margin-right: 3%;
+	margin-top: 7%;
+}
+
+a#MakingDataWorkIcon:hover {
+	background-image: url(images/making-data-work-button-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#ProvenProcessesIcon:link {
+	display: block;
+	height: 150px;
+	width: 184px;
+	background-image: url(images/proven-processes-button.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 25%;
+	margin-right: 3%;
+	margin-top: 7%;
+}
+
+a#ProvenProcessesIcon:hover {
+	background-image: url(images/proven-processes-button-hover.png);
+	background-repeat: no-repeat;
+}
+
+div.why-we-succeed-content h2.section-title, 
+div.careers-content h2.section-title,
+div.who-we-serve-content h2.section-title,
+div.what-we-do-content h2.section-title {
+	text-align: left;
+	color: white;
+	font-weight: normal;
+}
+
+div.why-we-succeed-content p,
+div.careers-content p,
+div.who-we-serve-content p,
+div.what-we-do-content p {
+	text-align: left;
+	color: white;
+	line-height: 2em;
+	font-size: 1.2em;
+}
+
+div.why-we-succeed-content p.quote-attribution {
+	text-align: right;
+}
+
+
+/*------------------------------------------------*/
+/* PAGE STYLES */
+/*------------------------------------------------*/
+
+.page-banners {
+	margin-top: -20px;
+	position: relative;
+}
+
+.page-banner-title {	
+	color: white;
+	position: absolute;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	right: 20%;
+	bottom: -24px;
+	z-index: 10;
+}
+
+.breadcrumbs {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 20px auto 40px auto;
+	text-align: center;
+}
+
+.breadcrumbs a{
+	margin-right: 7px;
+	margin-left: 7px;
+}
+
+a:link {
+	color: #365172;
+}
+
+a:visited {
+	color: #365172;
+}
+
+a:hover {
+	color: #365172;
+}
+
+a:active {
+	color: #365172;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.extra-bold {
+	font-weight: 800;
+}
+
+.white-text {
+	color: white;
+}
+
+a.white-text:link {
+	color: white;
+}
+
+a.white-text:visited {
+	color: ghostwhite;
+}
+
+a.white-text:hover {
+	color: white;
+	font-weight: 600;
+}
+
+a.white-text:active {
+	color: white;
+	font-weight: 600;
+}
+
+.yellow-text {
+	color: #ddbd6f;
+}
+
+.all-caps {
+	text-transform: uppercase;
+}
+
+.purple-box {
+	background-color: #665275;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.light-blue-box {
+	background-color: #5ab3c5;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.red-box {
+	background-color: #bc5729;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.yellow-box {
+	background-color: #ddbd6f;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.teal-box {
+	background-color: #528084;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.teal {
+	background-color: #528084;
+}
+
+.title-bar {
+	padding: 15px;
+	height: 55px;
+}
+
+.alt-blue-box {
+	background-color: #546274;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.page-headline {
+	color: #5ab3c5;
+	font-size: 1.7em;
+	font-weight: 600;
+	margin-bottom: 0px;
+	max-width: 600px;
+}
+
+h3.page-subtitle {
+	float: left;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 20px;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.center-align {
+	text-align: center;
+}
+
+a.white-text:hover {
+	color: white;
+}
+
+/*****WHO WE ARE PAGES*****/
+
+div.overview-module h2 {
+	margin-bottom: 20px;
+}
+
+div.strategic-partners-module .navy-box {
+	width: 250px;
+}
+
+div.strategic-partners-module .numbered-list {
+	max-width: 430px;
+	padding-top: 10px;
+}
+
+div.strategic-partners-module .navy-box h2 {
+	margin-top: 135px;
+}
+
+/*****WHAT WE DO PAGES*****/
+
+div.what-we-do-page-content {
+	padding-bottom: 20px;
+	position: relative;
+}
+
+div.image-left {
+	width: 350px;
+	float: left;
+}
+
+div.navy-text p {
+	color: #365172;
+}
+
+.right-position-text {
+	max-width: 350px;
+	padding: 25px;
+	float: left;
+}
+
+.what-we-do-page-content .image-left .title-bar {
+	position: absolute;
+	top: 50px;
+	width: 350px;
+}
+
+/*****WHO WE SERVE PAGES*****/
+
+div.four-basic-markets-module, div.life-science-module, div.education-module {
+	padding-right: 20px;
+}
+
+div.four-basic-markets-module .page-headline {
+	margin-bottom: 20px;
+	line-height: 34px;
+}
+
+div.navy-box, div.numbered-list {
+	display: inline-block;
+	min-height: 350px;
+	min-width: 250px;
+	padding: 10px;
+}
+
+.navy-box {
+	background-color: #365172;
+	float: left;
+	margin-bottom: 20px;
+}
+
+div.navy-box span {
+	display: block;
+	max-width: 75%;
+	margin: 4em auto;
+}
+
+.navy-box h2 {
+	font-family: "Source Sans Pro", sans-serif;
+	vertical-align: middle;
+	font-size: 2em;
+	line-height: 1.6em;
+}
+
+.navy-box p {
+	font-size: 1.1em;
+	line-height: 2em;
+}
+
+div.four-basic-markets-module .navy-box {
+	width: 300px;
+}
+
+div.four-basic-markets-module .numbered-list {
+	max-width: 420px;
+}
+
+div.how-we-succeed-module .numbered-list {
+	width: 400px;
+}
+
+div.numbered-list {
+	padding-top: 20px;
+}
+
+div.numbered-list li {
+	font-size: 1.3em;
+	font-weight: 600;
+	line-height: 1.4em;
+	padding-top: 20px;
+	float: left;
+}
+
+ul.big-blue-numbers {
+	list-style-type: none;
+}
+
+ul.big-blue-numbers li span {
+	display: block;
+	color: #5ab3c5;
+	font-size: 2em;
+	font-weight: 800;
+	font-family: "Source Code Pro", sans-serif;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+div.market-description {
+	padding-bottom: 40px;
+}
+
+div.market-description p {
+	line-height: 1.3em;
+}
+
+h2.full-width-headline {
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.5em;
+	text-align: center;
+	max-width: 1000px;
+}
+
+.right-side-bar {
+	width: 350px;
+	min-height: 300px;
+	margin: 0 auto;
+}
+
+.right-side-bar.contact {
+	margin-bottom: 20px;
+}
+
+.top-border.dotted-line {
+	margin-bottom: 30px;
+}
+
+.right-side-bar .white-text {
+	padding: 20px;
+	line-height: 24px;
+	font-family: "Source Code Pro", sans-serif;
+	font-size: 1.2em;
+}
+
+.right-side-bar .yellow-text {
+	padding-left: 20px;
+	padding-top: 20px;
+	font-weight: 800;
+}
+
+.right-side-bar span {
+	font-size: 24px;
+}
+
+.right-side-bar.industries .light-blue-box {
+	padding: 25px;
+}
+
+.right-side-bar.industries h2 {
+	font-weight: 600;
+}
+
+.right-side-bar.industries p, .right-side-bar.industries a {
+	color: white;
+	font-family:  "Source Code Pro", sans-serif;
+}
+
+.right-side-bar.industries a:link {
+	text-decoration: underline;
+}
+
+.right-side-bar.industries a:hover {
+	text-decoration: none;
+	font-weight: 700;
+}
+
+#WhatWeDoSubStoryHeader{
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.two-box-row {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.who-we-serve-box, .who-we-are-box, .what-we-do-box {
+	display: block;
+	height: 370px;
+	width: 350px;
+	margin-top: 30px;
+}
+
+.what-we-do-box {
+	height: 300px;
+	margin: 10px;
+}
+
+a#life-at-yahara-box:link {
+	background-image:  url(images/life-square.png);
+	background-repeat: no-repeat;
+}
+
+a#life-at-yahara-box:hover {
+	background-image:  url(images/life-square-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#yahara-team-box:link {
+	background-image:  url(images/team-square.png);
+	background-repeat: no-repeat;
+}
+
+a#yahara-team-box:hover {
+	background-image:  url(images/team-square-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#yahara-history-box:link {
+	background-image:  url(images/history-square.png);
+	background-repeat: no-repeat;
+}
+
+a#yahara-history-box:hover {
+	background-image:  url(images/history-square-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#life-science-box:link {
+	background-image:  url(images/life-science-square.png);
+	background-repeat: no-repeat;
+}
+
+a#life-science-box:hover {
+	background-image:  url(images/life-science-square-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#transportation-box:link {
+	background-image:  url(images/transportation-square.png);
+	background-repeat: no-repeat;
+}
+
+a#transportation-box:hover {
+	background-image:  url(images/transportation-square-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#education-box:link {
+	background-image:  url(images/education-square.png);
+	background-repeat: no-repeat;
+}
+
+a#education-box:hover {
+	background-image:  url(images/education-square-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#EnterpriseSystemsBox:link {
+	background-image:  url(images/enterprise-systems-square.png);
+	background-repeat: no-repeat;
+}
+
+a#EnterpriseSystemsBox:hover {
+	background-image:  url(images/enterprise-systems-square-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#CustomApplicationsBox:link {
+	background-image:  url(images/custom-software-square.png);
+	background-repeat: no-repeat;
+}
+
+a#CustomApplicationsBox:hover {
+	background-image:  url(images/custom-software-square-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#DataDashboardsBox:link {
+	background-image:  url(images/data-analytics-square.png);
+	background-repeat: no-repeat;
+}
+
+a#DataDashboardsBox:hover {
+	background-image:  url(images/data-analytics-square-hover.png);
+	background-repeat: no-repeat;
+}
+
+a#InteractiveWebBox:link {
+	background-image:  url(images/interactive-solutions-square.png);
+	background-repeat: no-repeat;
+}
+
+a#InteractiveWebBox:hover {
+	background-image:  url(images/interactive-solutions-square-hover.png);
+	background-repeat: no-repeat;
+}
+
+span.hover-text {
+	display: none;
+	font-size: 20px;
+	font-family: "Source Code Pro", sans-serif;
+	line-height: 30px;
+	padding: 110px 30px 0 30px;
+	text-align: center;
+}
+
+a.who-we-are-box span.title-stripe {
+	display: inline-block;
+	padding: 15px 0px 5px 20px;
+	width: 350px;
+	position: absolute;
+	top: 270px;
+}
+
+a.what-we-do-box span.title-stripe {
+	display: inline-block;
+	padding: 15px 0px 5px 20px;
+	width: 350px;
+	position: relative;
+    top: 200px;
+}
+
+.what-we-do-box h2 {
+	font-size: 17px;
+}
+
+a.who-we-are-box:hover span.title-stripe,
+a.what-we-do-box:hover span.title-stripe {
+	display: none;
+}
+
+a.who-we-are-box span.hover-text {
+	padding: 130px 50px 0 50px;
+}
+
+a.what-we-do-box span.hover-text {
+	padding: 90px 50px 0 50px;
+	font-size: 16px;
+}
+
+a.who-we-serve-box:hover span.hover-text,
+a.who-we-are-box:hover span.hover-text,
+a.what-we-do-box:hover span.hover-text {
+	display: inline-block;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+a#LifeSciencesIcon.float-right {
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+a#EducationIcon.float-right {
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+a#TransportationIcon.float-right {
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+.life-science-module .page-subtitle {
+	margin-top: 40px;
+	max-width: 200px;
+	line-height: 1.5em;
+}
+
+.education-module .page-subtitle {
+	margin-top: 40px;
+	max-width: 400px;
+	line-height: 1.5em;
+}
+
+.transportation-module .page-subtitle {
+	margin-top: 40px;
+	max-width: 400px;
+	line-height: 1.5em;
+}
+
+.sidebar-box {
+	display: block;
+	width: 368px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.side-bar-title h2 {
+	text-align: center;
+	font-weight: 600;
+	padding: 0px 30px 0px 30px;
+}
+
+p.sidebar-paragraph {
+	padding: 20px 40px 10px 40px;
+	font-family: "Source Code Pro" sans-serif;
+}
+
+.sidebar-life-science-module a.sidebar-box:link {
+	background-image: url(images/sidebar-life-science.png);
+	background-repeat: no-repeat;
+}
+
+.sidebar-education-module a.sidebar-box:link {
+	background-image: url(images/sidebar-education.png);
+	background-repeat: no-repeat;
+}
+
+.sidebar-transportation-module a.sidebar-box:link {
+	background-image: url(images/sidebar-transportation.png);
+	background-repeat: no-repeat;
+}
+
+.life-science-domain-header {
+	height: 179px;
+	width: 769px;
+	background-image: url(images/life-science-header-bg.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.life-science-domain-header .blue-title-bar {
+	height: 50px;
+	min-width: 300px;
+	background-color: #5ab3c5;
+	text-align: center;
+	font-size: 1.8em;
+	padding: 15px;
+	position: relative;
+	top: 100px;
+	float: right;
+}
+
+.life-science-domain-header {
+	margin-bottom: 30px;
+}
+
+.education-domain-header {
+	height: 179px;
+	width: 769px;
+	background-image: url(images/education-header-bg.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.education-domain-header .yellow-title-bar {
+	height: 50px;
+	min-width: 300px;
+	background-color: #ddbd6f;
+	text-align: center;
+	font-size: 1.8em;
+	padding: 15px;
+	position: relative;
+	top: 100px;
+	float: right;
+}
+
+.education-domain-header {
+	margin-bottom: 30px;
+}
+
+.transportation-domain-header {
+	height: 179px;
+	width: 769px;
+	background-image: url(images/transportation-header-bg.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.transportation-domain-header .red-title-bar {
+	height: 50px;
+	min-width: 300px;
+	background-color: #bc5729;
+	text-align: center;
+	font-size: 1.8em;
+	padding-top: 15px;
+	position: relative;
+	top: 100px;
+	float: right;
+}
+
+.transportation-domain-header {
+	margin-bottom: 30px;
+}
+
+.domain-expertise p {
+	padding: 0px 30px 0px 30px;
+}
+
+div#DomainSection1 {
+	margin-top: 40px;
+}
+
+.expanding-bar {
+	height: 50px;
+	width: 650px;
+	margin-bottom: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blue.expanding-bar span {
+	display: block;
+	height: 50px;
+	width: 50px;
+	background-color: #365172;
+	float: left;
+}
+
+.yellow.expanding-bar span {
+	display: block;
+	height: 50px;
+	width: 50px;
+	background-color: #bd9b48;
+	float: left;
+}
+
+.red.expanding-bar span {
+	display: block;
+	height: 50px;
+	width: 50px;
+	background-color: #ae421d;
+	float: left;
+}
+
+.expanding-bar h1 {
+	font-family: "Source Code Pro", sans-serif;
+}
+
+.expanding-bar h1, .expanding-bar h3 {
+	color: white;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+}
+
+img.flip-arrow {
+	margin-right: 15px;
+	margin-top: 15px;
+	float: right;
+}
+
+.blue {
+	background-color: #5ab3c5;
+}
+
+.yellow {
+	background-color: #ddbd6f;
+}
+
+.red {
+	background-color: #c35b2f;
+}
+
+#DomainSection1Expand {
+	padding: 50px;
+	height: 500px;
+	display: block;
+}
+
+.expanded-section {
+	padding: 15px;
+}
+
+#DomainSection1Expand img {
+	float: left;
+	margin-right: 10px;
+}
+
+
+#DomainSection2Expand {
+	padding: 50px;
+}
+
+#DomainSection2Expand img {
+	float: left;
+	margin-right: 10px;
+}
+
+
+#DomainSection3Expand {
+	padding: 50px;
+}
+
+#DomainSection3Expand img {
+	float: left;
+	margin-right: 10px;
+}
+
+#DomainSection4Expand {
+	padding: 50px;
+}
+
+#DomainSection4Expand img {
+	float: left;
+	margin-right: 10px;
+}
+
+.proven-processes-section {
+	height: 225px;
+	width: 100%;
+	background-color: #365172;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.proven-processes-section h2 {
+	margin-left: 40px;
+	margin-top: 100px;
+	float: left;
+}
+
+.proven-processes-section img {
+	float: right;
+}
+
+.proven-processes-div .two-column-list {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	-webkit-column-gap: 100px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 100px; /* Firefox */
+    column-gap: 100px;
+}
+
+#WhatWeDoSidebarTop {
+	margin-top: 25px;
+}
+
+#WhatWeDoSidebarTop h2 {
+	font-size: 1.5em;
+	position: relative;
+	top: -40px;
+	z-index: 15;
+	line-height: 20px;
+}
+
+#KeyBenefits {
+	display: block;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#BigLtBlueDot {
+	position: absolute;
+	top: -75px;
+}
+
+#WhatWeDoSidebarBottom {
+	margin-top: 30px;
+}
+
+#WhatWeDoSidebarBottom .red-box {
+	padding: 15px;
+}
+
+#WhatWeDoSidebarTop p {
+	font-size: 15px;
+	line-height: 27px;
+	padding: 0 20px 0 20px;
+}
+
+#WhatWeDoSidebarBottom h2 {
+	font-weight: 700px;
+	font-size: 1.5em; 
+}
+
+#WhatWeDoSidebarBottom p {
+	font-size: 15px;
+	line-height: 27px;
+	padding-top: 0px;
+}
+
+div.how-we-succeed-module .navy-box {
+	width: 350px;
+}
+
+div.how-we-succeed-module .numbered-list {
+	max-width: 430px;
+	padding-top: 40px;
+}
+
+div.how-we-succeed-module .numbered-list li {
+	float: none;
+	padding: 10px;
+}
+
+div.how-we-succeed-module .navy-box h2 {
+	margin-top: 135px;
+}
+
+/***********SUB-PAGE MENU***********/
+
+.sidebar-menu ul{
+	list-style-type: none;
+	font-family: "Source Code Pro", sans-serif;
+	margin-left: 20px;
+}
+
+.sidebar-menu li a:link {
+	font-weight: 600;
+	display: block;
+	height: 35px;
+	width: 100%;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+.sidebar-menu li a:visited {
+	background-color: ghost-white;
+}
+
+.sidebar-menu li a:hover {
+	background-color: #365172;
+	color: white;
+	text-decoration: none;
+}
+
+.sidebar-menu li a:active {
+	color: #5ab3c5;
+}
+
+/* DNN Specific Selectors 
+-------------------------------------*/
+.CommandButton {
+	font-weight: bold;
+}
+
+/*------------------------------------------------*/
+/* PARAGRAPH STYLE */
+/*------------------------------------------------*/
+p {
+	margin: 0 0 1em;
+}
+
+hr {
+	clear: both;
+	height: 0;
+	border: solid #c0c0c0;
+	border-width: 1px 0 0;
+	margin: 20px 0 20px 0;
+}
+
+/*------------------------------------------------*/
+/* IMAGE STYLES */
+/*------------------------------------------------*/
+img {
+	border: 0;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+.full-width-image {
+	width: 100%;
+}
+
+/*------------------------------------------------*/
+/* lIST STYLE */
+/*------------------------------------------------*/
+
+
+/*------------------------------------------------*/
+/* TABLE STYLE */
+/*------------------------------------------------*/
+
+table {
+	border-collapse: collapse
+}
+
+td {
+	text-align: left;
+	vertical-align: top;
+}
+
+
+/*------------------------------------------------*/
+/* FORM STYLE
+/*------------------------------------------------*/
+
+/*------------------------------------------------*/
+/* SITE LAYOUT */
+/*------------------------------------------------*/
+
+.center {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*------------------------------------------------*/
+/* GENERIC CLASSES
+/*------------------------------------------------*/
+
+/* Clear-fix for floated elements 
+	-------------------------------------*/
+.clear {
+	clear: both;
+	display: block;
+	float: none;
+	width: 0;
+	height: 0;
+}
+
+/*------------------------------------------------*/
+/* CONTENT PANES
+/*------------------------------------------------*/
+
+
+/* Empty Panes */
+.DNNEmptyPane {
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: 0;
+}
+
+/*------------------------------------------------*/
+/* CONTAINER STYLES
+/*------------------------------------------------*/
+
+
+
+/*------------------------------------------------*/
+/* ANCHOR STYLE */
+/*------------------------------------------------*/
+
+a.LoginLink-Bottom:link,
+a.LoginLink-Bottom:visited {
+	color: lightblue;
+	display: inline-block;
+	font-weight: bold;
+	padding: 0 11px;
+	line-height: 2em;
+	text-transform: uppercase;
+}
+
+a.LoginLink-Bottom:active,
+a.LoginLink-Bottom:hover {
+	color: ghostwhite;
+}
+
+
+.breadcrumb,
+a.breadcrumb:link,
+a.breadcrumb:visited {
+	color: white;
+	font-size: .9em;
+
+}
+
+a.breadcrumb:hover,
+a.breadcrumb:active {
+	color: lightgray;
+}
+
+a.login[title~=Logout] {
+	color: lightgray;
+    
+}
+a.login:hover[title~=Logout] {
+	color: white;
+    font-size: 1.1em;
+}
+
+a.login:visited[title~=Logout] {
+    color: ghostwhite;
+}
+
+
+/*------------------------------------------------*/
+/* FOOTER STYLES */
+/*------------------------------------------------*/
