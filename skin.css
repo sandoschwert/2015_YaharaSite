@@ -56,6 +56,9 @@ p.quote-attribution {
 	text-align: right;
 }
 
+p {
+	line-height: 1.5em;
+}
 
 /*------------------------------------------------*/
 /* MEDIA QUERIES
@@ -189,10 +192,6 @@ div.footer-content {
 	}
 	
 	.navbar-header {
-		width: 99%;	
-	}
-	
-	.navbar-header {
 		float: none;
 	}
 	
@@ -204,6 +203,10 @@ div.footer-content {
 	.navbar-right .dropdown-menu {
 		right: auto;
 		left: 0;
+	}
+	
+	.navbar-right {
+		margin-left: -10px;
 	}
 	
 }
@@ -297,7 +300,7 @@ div.footer-content {
 	}	
 	
 	.main-nav-position {
-		min-width: 1000px;
+		min-width: 915px;
 		max-width: 1300;
 		float: right;
 		margin-top: 20px;
@@ -305,19 +308,17 @@ div.footer-content {
 	
 	.left-position {
 		float: left;
-		margin-left: 50px;
-	}
-	
-	.right-position {
-		
+
 	}
 	
 	.navbar .left-position li a:link {
 		color: #365172;
 		font-family: 'Source Code Pro', sans-serif;
 		font-size: 1.2em;
-		padding-top: 10px;
-		padding-bottom: 2px;
+		padding-top: 7px;
+		padding-bottom: 5px;
+		padding-left: 12px;
+		padding-right: 12px;
 		text-transform: uppercase;
 		vertical-align: middle;
 	}
@@ -1203,6 +1204,12 @@ a.white-text:active {
 	margin-bottom: 20px;
 }
 
+.navy-sidebar-box {
+	background-color: #365172;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
 .teal {
 	background-color: #528084;
 }
@@ -1374,10 +1381,11 @@ ul.big-blue-numbers li span {
 
 div.market-description {
 	padding-bottom: 40px;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 div.market-description p {
-	line-height: 1.3em;
+	line-height: 1.5em;
 }
 
 h2.full-width-headline {
@@ -1707,6 +1715,7 @@ p.sidebar-paragraph {
 	position: relative;
 	top: 100px;
 	float: right;
+	margin-right: 1px;
 }
 
 .life-science-domain-header {
@@ -1731,6 +1740,7 @@ p.sidebar-paragraph {
 	position: relative;
 	top: 100px;
 	float: right;
+	margin-right: 1px;
 }
 
 .education-domain-header {
@@ -1755,6 +1765,7 @@ p.sidebar-paragraph {
 	position: relative;
 	top: 100px;
 	float: right;
+	margin-right: 1px;
 }
 
 .transportation-domain-header {
@@ -1908,9 +1919,9 @@ img.flip-arrow {
 #WhatWeDoSidebarTop h2 {
 	font-size: 1.5em;
 	position: relative;
-	top: -40px;
+	top: -45px;
 	z-index: 15;
-	line-height: 20px;
+	line-height: 1.3em;
 }
 
 #KeyBenefits {
@@ -1983,7 +1994,7 @@ div.how-we-succeed-module .navy-box h2 {
 	height: 35px;
 	width: 100%;
 	padding-left: 15px;
-	padding-top: 5px;
+	padding-top: 7px;
 }
 
 .sidebar-menu li a:visited {
